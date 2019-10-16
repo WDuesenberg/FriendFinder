@@ -7,9 +7,17 @@ back end and use Materialize framework on the front end.
 
 # Heroku 
 FriendFinder is deployed to Heroku. Please check it out here.
+https://friendfinder89.herokuapp.com/
 
 # Install
 For installation - :
-clone this git hub repo: ////////
+clone this git hub repo: git@github.com:WDuesenberg/FriendFinder.git
 cd to FriendFinder in terminal/GitBash
 npm install express, path, body-parser
+
+# Application Use
+To run the FriendFinder application you must set the 'PORT' environment variable to the value of your choice.
+(EX: 8000, 3030, 8080, etc.)
+Then while using your Terminal/GitBash, run the this command: node server.js
+Terminal/GitBash should respond with the following: Friend Finder app is listening on PORT: 3000(whatever you set as the PORT variable)
+Now, you can access the application locally from the browser URL. so in my case, localhost:PORT3000 
